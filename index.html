@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steaks a Fire</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+                <a href="index.html">Home</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/services.html">Services</a>
+                <a href="pages/menu.html">Menu</a>
+                <a href="pages/contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <h1>Reseda Locksmith</h1>
+                <p>Fast, reliable locksmith services in Reseda and the San Fernando Valley. Available 24/7.</p>
+                <a href="#contact">Call Now</a>
+            </section>
+
+            <section id="services">
+                <div class="service-card">
+                    <h3>Emergency Lockout</h3>
+                    <p>Locked out of your home, car, or business? We'll have you back inside fast — day or night.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Lock Rekey & Replace</h3>
+                    <p>Moving into a new place or need to update your locks? We rekey and replace all major lock brands.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial & Residential</h3>
+                    <p>From deadbolts to high-security systems, we service homes and businesses throughout Reseda.</p>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Reseda Locksmith has served the San Fernando Valley for over 10 years. Licensed, bonded, and insured. We show up when you need us — no surprise fees, no runaround.</p>
+            </section>
+
+            <section id="faq">
+                <h2>Common Questions</h2>
+                <div class="faq-item">
+                    <button class="faq-question">How fast can you get to me?</button>
+                    <div class="faq-answer">
+                        <p>Most jobs in Reseda we reach within 20–30 minutes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you charge extra for nights and weekends?</button>
+                    <div class="faq-answer">
+                        <p>We quote the price upfront before any work begins. No surprise fees.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Are you licensed and insured?</button>
+                    <div class="faq-answer">
+                        <p>Yes. Licensed, bonded, and insured in the state of California.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Call or text anytime: (818) 555-0190</p>
+                <p>Serving Reseda, Northridge, Canoga Park, and surrounding areas.</p>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your name">
+                    <p id="name-error"></p>
+                    <input type="email" id="email" placeholder="Your email">
+                    <p id="email-error"></p>
+                    <textarea id="message" placeholder="Your message"></textarea>
+                    <p id="message-error"></p>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+        </footer>
+
+        <script src="js/nav.js"></script>
+        <script src="js/form.js"></script>
+        <script src="js/accordion.js"></script>
+    </body>
+</html>
